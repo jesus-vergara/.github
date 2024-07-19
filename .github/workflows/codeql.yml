@@ -1,7 +1,8 @@
 name: "CodeQL"
 
 on:
-  workflow_dispatch:
+  # As a template, with this command it can be called from other repos
+  workflow_call:
 
 jobs:
   analyze:
